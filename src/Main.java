@@ -26,6 +26,7 @@ public class Main {
         for (Student student : students) {
             System.out.println("Name: " + student.name + " " + student.surname);
             System.out.println("Gender: " + student.gender);
+            System.out.println("Date of start study:"+" "+student.getDateOfStart());
             student.getStudentsEducationCenter();
             student.getStudentsStudyingYear();
             System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
